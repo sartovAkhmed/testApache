@@ -1,0 +1,43 @@
+
+
+.header {
+    background-color: white;
+    padding: 10px 0;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    font-size: 24px;
+}
+
+.header__nav ul {
+    display: flex;
+    gap: 10px;
+}
+
+.header__nav ul li a:hover {
+    text-decoration: overline;
+}
+
+.header__block {
+    display: flex;
+    gap: 10px;
+}
+.header__block button {
+    padding: 10px;
+    background-color: rgb(136, 0, 255);
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    transition: 200ms;
+}
+.header__block button:hover {
+    transform: scale(1.1);
+}

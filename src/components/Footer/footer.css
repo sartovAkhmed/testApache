@@ -1,0 +1,15 @@
+
+
+.footer {
+    background-color: white;
+    padding: 20px 0;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__nav ul li a:hover {
+    text-decoration: overline;
+}
